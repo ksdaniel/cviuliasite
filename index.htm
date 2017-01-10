@@ -1,36 +1,31 @@
 ﻿<!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <title></title>
     <style>
         @media screen and (min-width:1024px) {
-            body {
-            }
-
+            body {}
             img {
                 margin: 0px;
                 float: left;
                 padding: 0px;
                 border: 0px;
             }
-
             .content {
                 width: 600px;
                 margin: auto;
             }
         }
-
+        
         @media screen and (max-width:1023px) {
             .content {
                 width: 100%;
                 margin: auto;
             }
-
             .hiddensmall {
                 display: none;
             }
-
             img {
                 display: block;
                 margin: auto;
@@ -41,6 +36,7 @@
         }
     </style>
 </head>
+
 <body>
     <form id="form1">
         <div>
@@ -54,5 +50,22 @@
             </div>
         </div>
     </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-90153303-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
+
 </html>
